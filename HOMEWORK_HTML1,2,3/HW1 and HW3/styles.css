@@ -1,0 +1,87 @@
+.contact1 li {
+    list-style: none;
+}
+
+
+.small-image {
+    width: 100px; /* ปรับขนาดตามที่คุณต้องการ */
+    height: auto; /* รักษาสัดส่วน */
+  }
+
+
+  .class123{
+    width: 270px;
+    height: 20px;
+    background-color:beige;
+  }
+  /* */
+  .class123 a.aboutme1{
+    background-color: blue;
+    color: black;
+  }
+  .class123 a.skill1{
+    background-color:beige;
+    color: black;
+  }
+  .class123 a.contactme1{
+    background-color: beige;
+    color: black;
+  }
+  .class123 a.portfolio1{
+    background-color: beige;
+    color: black;
+  }
+ /**/
+ .class123 a:hover{
+    background-color:pink;
+    color:black;
+  }
+
+  .portfolio-container {
+    background-color: antiquewhite; display: flex; justify-content: space-around; flex-wrap: wrap;
+  }
+
+  .portfolio-container2 {
+    background-color:antiquewhite; display: flex; justify-content: space-around; flex-wrap: wrap;
+  }
+
+.portfolio-container img,
+.portfolio-container2 img {
+  width: 10%; /* ทำให้รูปภาพเต็มความกว้างของพ่อค้า (container) */
+  height: 10%;
+}
+
+.portfolio-container li,
+.portfolio-container2 li {
+  margin-bottom: 5px; /* เพิ่ม margin ระหว่างรายการ */
+  text-align: center; /* ทำให้ข้อความอยู่ตรงกลาง */
+}
+
+
+  .profile-search-box {
+    display: flex;
+    align-items: center; /* ให้ align ตรงกลางในแนวตั้ง */
+    gap: 10px; /* เพิ่มระยะห่างระหว่างส่วน */
+    background-color: #f4f4f4;
+    padding: 5px;
+    border: 2px solid #000; /* สีของเส้นกรอบ */
+    border-radius: 10px; /* ขนาดของมุมขอบ */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    justify-content:space-between;
+    
+  }
+  
+  .profile-item img {
+    margin-right: 10px; /* เพิ่มระยะห่างด้านขวาของรูปภาพ */
+  }
+  
+  .profile-item, .search-box {
+    display: flex;
+    text-align: center;
+  }
+
+ 
+  .body1 {
+    background-color:antiquewhite;
+  }
